@@ -37,7 +37,7 @@
         android:gravity="center"
         android:visibility="gone">
 
-        <wrteam.multivendor.shop.helper.album.widget.ColorProgressBar
+        <com.greymatter.foodoholic.helper.album.widget.ColorProgressBar
             android:id="@+id/progress_bar"
             style="@style/Album.Progress.Loading" />
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<wrteam.multivendor.shop.helper.album.widget.SquareCardView
+<com.greymatter.foodoholic.helper.album.widget.SquareCardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/Album.Item.Card.MatchParent">
 
@@ -13,7 +13,7 @@
             android:scaleType="centerCrop"
             />
 
-        <wrteam.multivendor.shop.helper.album.widget.TransferLayout
+        <com.greymatter.foodoholic.helper.album.widget.TransferLayout
             style="@style/Album.WrapContent.Transfer"
             android:layout_alignParentEnd="true"
             >
@@ -21,7 +21,7 @@
             <androidx.appcompat.widget.AppCompatCheckBox
                 android:id="@+id/check_box"
                 style="@style/Album.CheckBox.WrapContent" />
-        </wrteam.multivendor.shop.helper.album.widget.TransferLayout>
+        </com.greymatter.foodoholic.helper.album.widget.TransferLayout>
 
     </RelativeLayout>
 
@@ -39,4 +39,4 @@
 
     </FrameLayout>
 
-</wrteam.multivendor.shop.helper.album.widget.SquareCardView>
+</com.greymatter.foodoholic.helper.album.widget.SquareCardView>

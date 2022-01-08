@@ -3,7 +3,7 @@
     style="@style/Album.MatchParent"
     android:background="@color/albumColorPrimaryBlack">
 
-    <wrteam.multivendor.shop.helper.album.widget.photoview.FixViewPager
+    <com.greymatter.foodoholic.helper.album.widget.photoview.FixViewPager
         android:id="@+id/view_pager"
         style="@style/Album.MatchParent" />
 

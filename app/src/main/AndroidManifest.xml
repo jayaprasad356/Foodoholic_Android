@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="wrteam.multivendor.shop">
+    package="com.greymatter.foodoholic">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -47,7 +47,7 @@
         tools:ignore="ProtectedPermissions" />
 
     <application
-        android:name=".helper.ApiConfig"
+        android:name="com.greymatter.foodoholic.helper.ApiConfig"
         android:allowBackup="false"
         android:fullBackupContent="@xml/backup_descriptor"
         android:icon="@mipmap/ic_launcher"
@@ -58,16 +58,16 @@
         android:usesCleartextTraffic="true"
         tools:replace="android:usesCleartextTraffic">
         <activity
-            android:name=".activity.PaymentActivity"
+            android:name="com.greymatter.foodoholic.activity.PaymentActivity"
             android:exported="true" />
         <activity
-            android:name=".activity.WelcomeActivity"
+            android:name="com.greymatter.foodoholic.activity.WelcomeActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
 
         <activity
-            android:name=".activity.SplashActivity"
+            android:name="com.greymatter.foodoholic.activity.SplashActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity">
@@ -85,7 +85,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.PayStackActivity"
+            android:name="com.greymatter.foodoholic.activity.PayStackActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
@@ -108,33 +108,33 @@
             android:name="com.canhub.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" /> <!-- optional (needed if default theme has no action bar) -->
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.greymatter.foodoholic.activity.MainActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.LoginActivity"
+            android:name="com.greymatter.foodoholic.activity.LoginActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.PayPalWebActivity"
+            android:name="com.greymatter.foodoholic.activity.PayPalWebActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.MidtransActivity"
+            android:name="com.greymatter.foodoholic.activity.MidtransActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".activity.StripeActivity"
+            android:name="com.greymatter.foodoholic.activity.StripeActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
 
         <provider
-            android:name=".helper.album.provider.CameraFileProvider"
+            android:name="com.greymatter.foodoholic.helper.album.provider.CameraFileProvider"
             android:authorities="${applicationId}.app.file.provider"
             android:exported="false"
             android:grantUriPermissions="true"
@@ -145,27 +145,27 @@
         </provider>
 
         <activity
-            android:name=".helper.album.app.gallery.GalleryActivity"
+            android:name="com.greymatter.foodoholic.helper.album.app.gallery.GalleryActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
         <activity
-            android:name=".helper.album.app.gallery.GalleryAlbumActivity"
+            android:name="com.greymatter.foodoholic.helper.album.app.gallery.GalleryAlbumActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
         <activity
-            android:name=".helper.album.app.album.NullActivity"
+            android:name="com.greymatter.foodoholic.helper.album.app.album.NullActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
         <activity
-            android:name=".helper.album.app.album.GalleryActivity"
+            android:name="com.greymatter.foodoholic.helper.album.app.album.GalleryActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
         <activity
-            android:name=".helper.album.app.album.AlbumActivity"
+            android:name="com.greymatter.foodoholic.helper.album.app.album.AlbumActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
         <activity
-            android:name=".helper.album.app.album.camera.CameraActivity"
+            android:name="com.greymatter.foodoholic.helper.album.app.album.camera.CameraActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
 
@@ -185,7 +185,7 @@
             android:resource="@xml/searchable" />
 
         <service
-            android:name=".helper.MyFirebaseMessagingService"
+            android:name="com.greymatter.foodoholic.helper.MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

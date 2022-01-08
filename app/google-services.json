@@ -1,115 +1,33 @@
 {
   "project_info": {
-    "project_number": "354159859877",
-    "project_id": "ecart-multi-vendor",
-    "storage_bucket": "ecart-multi-vendor.appspot.com"
+    "project_number": "565490780686",
+    "project_id": "foodoholic-e0949",
+    "storage_bucket": "foodoholic-e0949.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:354159859877:android:4265736a6577e9eb79154c",
+        "mobilesdk_app_id": "1:565490780686:android:4a94e3f3de64cda2e90a5f",
         "android_client_info": {
-          "package_name": "wrteam.multivendor.dboy"
+          "package_name": "com.greymatter.foodoholic"
         }
       },
       "oauth_client": [
         {
-          "client_id": "354159859877-4hitavclaf0ilks91lli6s70rg6lufsc.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "wrteam.multivendor.dboy",
-            "certificate_hash": "8625ff1cc8d763e0becae47464c420d8ddc9674d"
-          }
-        },
-        {
-          "client_id": "354159859877-9leauliftmnll7stqsptehrsoafl9tjj.apps.googleusercontent.com",
+          "client_id": "565490780686-gds1js6g4kjcbtov08hu1av9rl3l5u5n.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDQuX3HW3rG5vEiy4HCHqSuSLfZlA7Sa7I"
+          "current_key": "AIzaSyCDKyGDF3byrRSFaVe39gdcz3xwfFuOUys"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "354159859877-9leauliftmnll7stqsptehrsoafl9tjj.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:354159859877:android:62a29bb2c9ad355f79154c",
-        "android_client_info": {
-          "package_name": "wrteam.multivendor.seller"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "354159859877-lb37c748lt97bj6pgm744gru3igvq7dj.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "wrteam.multivendor.seller",
-            "certificate_hash": "8625ff1cc8d763e0becae47464c420d8ddc9674d"
-          }
-        },
-        {
-          "client_id": "354159859877-9leauliftmnll7stqsptehrsoafl9tjj.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDQuX3HW3rG5vEiy4HCHqSuSLfZlA7Sa7I"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "354159859877-9leauliftmnll7stqsptehrsoafl9tjj.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:354159859877:android:bd8775172782d8e279154c",
-        "android_client_info": {
-          "package_name": "wrteam.multivendor.shop"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "354159859877-uh4hke5rivbq5d4ektlit8i2u615os7k.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "wrteam.multivendor.shop",
-            "certificate_hash": "8625ff1cc8d763e0becae47464c420d8ddc9674d"
-          }
-        },
-        {
-          "client_id": "354159859877-9leauliftmnll7stqsptehrsoafl9tjj.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDQuX3HW3rG5vEiy4HCHqSuSLfZlA7Sa7I"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "354159859877-9leauliftmnll7stqsptehrsoafl9tjj.apps.googleusercontent.com",
+              "client_id": "565490780686-gds1js6g4kjcbtov08hu1av9rl3l5u5n.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
